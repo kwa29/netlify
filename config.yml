@@ -44,7 +44,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample App Status
+title: Kwa29 App Status
 
 # What language is this site using?
 # Only alters the html[lang] attribute
@@ -179,7 +179,7 @@ params:
   # the value to the default:
   #
   # Default: UA-00000000-1
-  googleAnalytics: UA-00000000-1
+  googleAnalytics: UA-658382-5
 
 ############################################################
 # +------------------------------------------------------+ #
