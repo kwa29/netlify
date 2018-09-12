@@ -122,19 +122,19 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  customTabs:
+  #customTabs:
   # Tabs on homepage
-  - 
-  name: Monitoring
-  link: https://monitoring.kwa29.com
+  #- 
+  #name: Monitoring
+  #link: https://monitoring.kwa29.com
   
-  - 
-  name: Grafana
-  link: https://grafana.kwa29.com
+  #- 
+  #name: Grafana
+  #link: https://grafana.kwa29.com
   
-  - 
-  name: ELK
-  link: https://elastic.kwa29.com
+  #- 
+  #name: ELK
+  #link: https://elastic.kwa29.com
 
   # Auto refresh the page
   # every ~5 min
