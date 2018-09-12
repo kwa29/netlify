@@ -44,7 +44,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Kwa29 App Status
+title: Kwa29 Status
 
 # What language is this site using?
 # Only alters the html[lang] attribute
@@ -77,13 +77,17 @@ params:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
     -
-      name: Gateway
+      name: Website
+      description: The Kwa29 website.
+    -
+      name: Blog
+      description: The Kwa29 blog.
     -
       name: API
       description: The guts of the application.
     -
-      name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      name: Platform
+      description: The Kwa29 platform.
 
   # What header design should we use?
   #
@@ -118,10 +122,14 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+  # Tabs on homepage
+  - name: Monitoring
+  link: https://monitoring.kwa29.com
+  - name: Grafana
+  link: https://grafana.kwa29.com
+  - name: ELK
+  link: https://elastic.kwa29.com
 
   # Auto refresh the page
   # every ~5 min
