@@ -124,11 +124,16 @@ params:
   # Format:
   customTabs:
   # Tabs on homepage
-  - name: Monitoring
+  - 
+  name: Monitoring
   link: https://monitoring.kwa29.com
-  - name: Grafana
+  
+  - 
+  name: Grafana
   link: https://grafana.kwa29.com
-  - name: ELK
+  
+  - 
+  name: ELK
   link: https://elastic.kwa29.com
 
   # Auto refresh the page
